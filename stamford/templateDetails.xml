@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+  <name>stamford</name>
+  <version>3.3.6</version>
+  <creationDate>February 2015</creationDate>
+  <author>Joomlastars</author>
+  <authorEmail>stars.joomla@gmail.org</authorEmail>
+  <copyright>Copyright (C) 2016 Joomlastars. All rights reserved.</copyright>
+  <description>
+    <![CDATA[<link href="../templates/stamford/css/admin.css" rel="stylesheet" type="text/css" media="all" /> 
+      <div class="templateinfo"><h3><strong>Stamford joomla theme description</strong></h3>
+      <img src="../templates/stamford/images/template.png" border="0" title="" alt=""/>
+      <p>Template Links</p> 
+      <p>Template Setup Guide <a href="http://stamford.joomlastars.co/Documentation/index.html" target="_blank">Read Now</a><br />  
+      Follow us on Twitter <a href="http://twitter.com/joomlastars" target="_blank">Joomlastars Twitter</a><br />
+      Follow us on Facebook <a href="http://www.facebook.com/joomlastars" target="_blank">Joomlastars Facebook</a><br>
+      Talk with us on Skype <a>stars.joomla</a><br>
+      <b>support</b> <a target="_blank" href="http://support.joomlastars.co.in">http://support.joomlastars.co.in</a><br>
+      Send us mail @ <a href="mailto:stars.joomla@gmail.com">stars.joomla@gmail.com</a>
+      <br /></p></div>]]>
+  </description>
+  <languages folder="language">
+    <language tag="ar-AA">ar-AA/ar-AA.tpl_stamford.ini</language>
+    <language tag="de-DE">de-DE/de-DE.tpl_stamford.ini</language>
+    <language tag="en-GB">en-GB/en-GB.tpl_stamford.ini</language>
+    <language tag="es-ES">es-ES/es-ES.tpl_stamford.ini</language>
+    <language tag="fr-FR">fr-FR/fr-FR.tpl_stamford.ini</language>
+    <language tag="gr-GR">gr-GR/gr-GR.tpl_stamford.ini</language>
+    <language tag="it-IT">it-IT/it-IT.tpl_stamford.ini</language>
+    <language tag="ja-JP">ja-JP/ja-JP.tpl_stamford.ini</language>
+    <language tag="nb-NO">nb-NO/nb-NO.tpl_stamford.ini</language>
+    <language tag="nl-NL">nl-NL/nl-NL.tpl_stamford.ini</language>
+    <language tag="pt-PT">pt-PT/pt-PT.tpl_stamford.ini</language>
+    <language tag="ru-RU">ru-RU/ru-RU.tpl_stamford.ini</language>
+    <language tag="sv-SE">sv-SE/sv-SE.tpl_stamford.ini</language>
+    <language tag="zh-CN">zh-CN/zh-CN.tpl_stamford.ini</language>
+  </languages>
+  <files>
+    <folder>css</folder>
+    <folder>fonts</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>js</folder>
+    <folder>language</folder>
+    <folder>php</folder>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <positions>
+    <position>js-menu</position>
+	<position>js-language</position>
+    <position>js-social</position>
+    <position>js-home</position>
+    <position>js-slideshow</position>
+    <position>js-capturinglife</position>
+    <position>js-about</position>
+    <position>js-services</position>
+    <position>js-portfolio</position>
+    <position>js-germany</position>
+    <position>js-sweden</position>
+    <position>js-norway</position>
+    <position>js-poland</position>
+    <position>js-gallery</position>
+    <position>js-galleryA2</position>
+    <position>js-blog</position>
+    <position>js-blogfooter</position>
+    <position>js-contact</position>
+    <position>js-map</position>
+    <position>js-contactform</position>
+  </positions>
+  <config>
+    <fields name="params">
+      <fieldset name="LOGOOPTIONS">
+        <field label="LOGOINFO"  type="spacer" class="alert alert-blue"/>
+        <field name="darklogo" class="" type="media" default=""
+					label="Dark Logo"
+					description="Add Dark Logo" />
+        <field name="lightlogo" class="" type="media" default=""
+					label="Light Logo"
+					description="Add Light Logo" />
+        <field name="tagline1" class="" type="text" default=""
+					label="Tagline 1"
+					description="Add Logo Tagline 1" />
+        <field name="tagline2" class="" type="text" default=""
+					label="Tagline 2"
+					description="Add Logo Tagline 2" />
+      </fieldset>
+      <fieldset name="HOME_VERSION">
+        <field label="HOME VERSION_INFO" type="spacer" class="alert-blue"/>
+        <field name="homepage_layout" type="list" default="home" label="Choose your Home" description="Choose your Layout">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </field>
+      </fieldset>
+      <fieldset name="SOCIALOPTIONS">
+        <field label="SOCIALINFO"  type="spacer" class="alert-blue"/>
+        <field name="social" type="radio" label="SHOWSOCIAL" description="Enable / Disable social icon" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="facebook" type="radio" label="Show Facebook" description="Facebook" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="facebooklink" type="text" label="Facebook Url" description="Facebook link" size="50" />
+        <field name="twitter" type="radio" label="Show Twitter" description="Twitter" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="twitterlink" type="text" label="Twitter Url" description="Twitter link" size="50" />
+        <field name="googleplus" type="radio" label="Show Google Plus" description="Google" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="googlepluslink" type="text" label="Google Plus Url" description="Google plus link" size="50" />
+        <field name="linkedin" type="radio" label="Show LinkedIn" description="Link of Delicious" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="linkedinlink" type="text" label="LinkedIn Url" description="Linkedin link" size="50" />
+        <field name="behance" type="radio" label="Show behance" description="behance" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="behancelink" type="text" label="Behance Url" description="behance" size="50" />
+        <field name="flicker" type="radio" label="Show Flickr" description="Flicker" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="flickerlink" type="text" label="Flickr Url" description="Flicker Id" size="50" />
+        <field name="pinterest" type="radio" label="Show Pinterest" description="HTML5" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="pinterestlink" type="text" label="Pinterest Url" description="pinterest" size="50" />
+        <field name="youtube" type="radio" label="Show Youtube" description="Link of pinterest" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="youtubelink" type="text" label="Youtube Url" description="Link of Youtube Channel" size="50" />
+        <field name="dribbble" type="radio" label="Show Dribble" description="Dribble" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="dribbblelink" type="text" label="Dribble" description="Link of Dribble" size="50" />
+      </fieldset>
+      <fieldset name="FOOTER">
+        <field label="FOOTER_INFO"  type="spacer" class="alert alert-blue"/>
+        <field name="copyright" type="text" size="50" filter="raw" label="COPYRIGHT TEXT" description="Copyright Text" />
+        <field name="showaddress" type="radio" label="Show address" description="address" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="address" type="text" size="50" filter="raw" label="Address" description="address" />
+        <field name="showphone" type="radio" label="Show phone" description="phone" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="phone" type="text" size="50" filter="raw" label="Phone no" description="phone no" />
+        <field name="showemail" type="radio" label="Show email" description="email" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="email" type="text" size="50" filter="raw" label="Email id" description="email id" />
+        <field name="showskype" type="radio" label="Show skype" description="skype" default="1" checked="checked" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field name="skype" type="text" size="50" filter="raw" label="Skype id" description="skype id" />
+      </fieldset>
+    </fields>
+  </config>
+</extension>

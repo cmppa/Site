@@ -1,0 +1,103 @@
+/*
+* @package Stamford
+* @copyright (C) 2016 by Joomlastars - All rights reserved!
+* @license GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.html)
+* @author Joomlastars <stars.joomla@gmail.com> <skype : stars.joomla>
+* @authorurl <http://themeforest.net/user/joomlastars>
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-weight: inherit;
+   font-style: inherit;
+   font-size: 100%;
+   font-family: inherit;
+   vertical-align: baseline;
+}
+
+:focus {
+   outline: 0;
+}
+
+body {
+   line-height: 1;
+   color: black;
+   /*background: white;*/
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+table {
+   border-collapse: separate;
+   border-spacing: 0;
+}
+
+caption,
+th,
+td {
+   text-align: left;
+   font-weight: normal;
+}
